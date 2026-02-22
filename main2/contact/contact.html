@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dilshaj Infotech</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!-- Shared SVG gradients for four-pointed star (medium purple, subtle depth) -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0">
+        <defs>
+            <linearGradient id="starPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6b5bcc" />
+                <stop offset="100%" stop-color="#8b6eff" />
+            </linearGradient>
+            <linearGradient id="starPurpleGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b7ad4" />
+                <stop offset="100%" stop-color="#b8a5ff" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <header>
+        <nav class="pill-nav-container">
+            <!-- Logo on the Left -->
+            <a href="../index.html" class="pill-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech">
+            </a>
+
+            <!-- Center Nav Links -->
+            <div class="main-nav-links">
+                <ul class="nav-list desktop-only">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../about/about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="../services/services.html" class="nav-link">Services</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Categories</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Ideation & Design</a></li>
+                                        <li><a href="#">Mobile App Development</a></li>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Software Development</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <div class="category-group">
+                                            <a href="../services/services.html#web-dev" class="group-header">
+                                                <h4>Web & App</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#web-dev">Web Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#app-dev">App Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ui-ux">UI/UX Design <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#digital-marketing">Digital
+                                                        Marketing <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../services/services.html#banking" class="group-header">
+                                                <h4>Enterprise</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#banking">Banking Software <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#architecture">Building
+                                                        Architecture <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#salesforce">Sales Force <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ad-agency">Ad Agency <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../services/services.html#data-flow" class="group-header">
+                                                <h4>Data & SAP</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#data-flow">Data Flow <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#data-analyst">Data Analyst <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#oracle">Oracle <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#sap">SAP Solutions <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item-dropdown">
+                        <a href="../products/products.html" class="nav-link">Products</a>
+                        <div class="dropdown-menu products-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Our Solutions</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Edu & News</a></li>
+                                        <li><a href="#">Health & Lifestyle</a></li>
+                                        <li><a href="#">E-Commerce</a></li>
+                                        <li><a href="#">AI Systems</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Edu & Media</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">Eduprova <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Digital News <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Moon Food <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Health & Retail</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">E-Commerce <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Doctor on Click <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Communication <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Next-Gen AI</h4>
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">AI Based LLMs <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Predictive Analytics <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../careers/careers.html" class="nav-link">Careers</a></li>
+                    <li><a href="../contact/contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- CTA on the Right -->
+            <a href="../contact/contact.html" class="get-in-touch-btn desktop-only">
+                Get In Touch
+                <span class="btn-icon-box">
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+
+            <button class="mobile-menu-button mobile-only" id="mobile-menu-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+    <!-- Mobile Menu Popover -->
+    <div id="mobile-menu-popover">
+        <div class="mobile-menu-header">
+            <button class="mobile-menu-close-btn"><i class="fas fa-times"></i></button>
+            <a href="../index.html" class="mobile-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech" class="mobile-logo">
+            </a>
+            <div style="width: 32px;"></div>
+        </div>
+
+        <div class="mobile-menu-links">
+            <a href="../index.html" class="mobile-nav-link">HOME</a>
+            <a href="../about/about.html" class="mobile-nav-link">ABOUT</a>
+            <a href="../products/products.html" class="mobile-nav-link">PRODUCTS</a>
+            <a href="../services/services.html" class="mobile-nav-link">SERVICES</a>
+            <a href="../careers/careers.html" class="mobile-nav-link">CAREERS</a>
+            <a href="contact.html" class="mobile-nav-link active">CONTACT</a>
+        </div>
+
+        <div class="mobile-menu-footer">
+            <div class="mobile-social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="mobile-search-box">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-content reveal" data-aos="fade-right">
+                    <div class="contact-badge">
+                        <img src="../public/Star 9.png" class="badge-star-icon" width="25" height="25" alt="Star">
+                        <span>Contact us</span>
+                    </div>
+                    <h2 class="contact-main-heading">
+                        We help transform your<br>ideas into successful<br>
+                        digital solutions.
+                    </h2>
+
+                    <div class="contact-info-list">
+                        <div class="contact-info-item reveal">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <span>089772 72783</span>
+                        </div>
+                        <div class="contact-info-item reveal">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span>dilshajinfotech.it@gmail.com</span>
+                        </div>
+                        <div class="contact-info-item reveal">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span>225-2A, Narsipatnam, Rolugunta,<br>Visakhapatnam, Andhra Pradesh<br>531114</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="First Name" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Last Name" class="form-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="phone-input-wrapper">
+                                <span class="flag-icon"><img src="https://flagcdn.com/w20/in.png"
+                                        alt="India Flag"></span>
+                                <input type="tel" placeholder="Phone Number" class="form-input with-flag">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email ID" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" class="form-input form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="contact-submit-btn">
+                            Let's Connect
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <!-- Top Footer (Light) -->
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-grid-layout">
+                    <!-- Column 1: Brand -->
+                    <div class="footer-col brand-col" data-aos="fade-up">
+                        <img src="../public/drlogo.png" alt="Dilshaj Infotech" class="footer-logo" loading="lazy">
+                        <p class="footer-desc">
+                            Dilshaj Infotech is a next-generation global technology company building high-performance
+                            digital products, intelligent platforms, and scalable solutions. We focus on quality,
+                            innovation, and speed to deliver secure, future-ready technology that drives real impact.
+                        </p>
+                    </div>
+
+                    <!-- Column 2: Links -->
+                    <div class="footer-col links-col" data-aos="fade-up" data-aos-delay="100">
+                        <h4 class="footer-heading">Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about/about.html">About Us</a></li>
+                            <li><a href="../services/services.html">Service</a></li>
+                            <li><a href="../index.html#projects">Projects</a></li>
+                            <li><a href="../index.html#technologies">Technologies</a></li>
+                            <li><a href="#">Social Service</a></li>
+                            <li><a href="../careers/careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Services -->
+                    <div class="footer-col services-col" data-aos="fade-up" data-aos-delay="200">
+                        <h4 class="footer-heading">Services</h4>
+                        <ul class="footer-links services-grid-list">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">UI Ux Design</a></li>
+                            <li><a href="#">Banking Software</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Building Architecture</a></li>
+                            <li><a href="#">Sales Force</a></li>
+                            <li><a href="#">Ad Agency</a></li>
+                            <li><a href="#">Data Flow</a></li>
+                            <li><a href="#">Data Analyst</a></li>
+                            <li><a href="#">Oracle</a></li>
+                            <li><a href="#">Chat Process</a></li>
+                            <li><a href="#">SAP</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Products -->
+                    <div class="footer-col products-col" data-aos="fade-up" data-aos-delay="300">
+                        <h4 class="footer-heading">Products</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Eduprova</a></li>
+                            <li><a href="#">Digital News</a></li>
+                            <li><a href="#">Moved Food</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li><a href="#">Doctor on Click</a></li>
+                            <li><a href="#">Communication App</a></li>
+                            <li><a href="#">AI Based Allowence</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 5: Contact -->
+                    <div class="footer-col contact-col" data-aos="fade-up" data-aos-delay="400">
+                        <h4 class="footer-heading">Contact</h4>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+91 8977272783</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>dilshajinfotech.it@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>225-2A, Narsipatnam, Rolugunta,<br>Visakhapatnam, Andhra Pradesh<br>531114</span>
+                            </li>
+                        </ul>
+                        <div class="footer-map-preview">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.74233575975!2d82.4988!3d17.7329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzU4LjQiTiA4MsKwMjknNTUuNiJF!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+                                width="100%" height="150"
+                                style="border:0; border-radius: 15px; margin-top: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"
+                                allowfullscreen="" loading="lazy">
+                            </iframe>
+                            <div style="text-align: right; margin-top: 8px;">
+                                <a href="https://share.google/xf0iGvcioFSqKcoJw" target="_blank"
+                                    style="color: #7c5cff; font-size: 0.85rem; text-decoration: none; font-weight: 600;">
+                                    View on Google Maps <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer (Dark) -->
+        <div class="footer-bottom">
+            <div class="footer-container bottom-flex" data-aos="fade-up">
+                <div class="footer-social-wrapper">
+                    <h4 class="social-heading">Follow Us On</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-btn"><i class="fas fa-globe"></i></a>
+                    </div>
+                    <p class="copyright-text">© Copyright 2025, All Rights Reserved by Dilshaj Infotech</p>
+                </div>
+
+                <div class="whatsapp-update-box">
+                    <div class="wa-header">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Updates</span>
+                    </div>
+                    <form class="wa-form">
+                        <div class="wa-input-group">
+                            <img src="https://flagcdn.com/w20/in.png" alt="India" class="flag-icon-img" loading="lazy">
+                            <input type="tel" placeholder="Enter Phone number" class="wa-input">
+                        </div>
+                        <button type="submit" class="wa-submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../script.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

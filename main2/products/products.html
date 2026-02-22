@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduProva - AI Powered E-Learning</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Shared SVG gradients for four-pointed star (medium purple, subtle depth) -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0">
+        <defs>
+            <linearGradient id="starPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6b5bcc" />
+                <stop offset="100%" stop-color="#8b6eff" />
+            </linearGradient>
+            <linearGradient id="starPurpleGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b7ad4" />
+                <stop offset="100%" stop-color="#b8a5ff" />
+            </linearGradient>
+        </defs>
+    </svg>
+    <header>
+        <nav class="pill-nav-container">
+            <!-- Logo on the Left -->
+            <a href="../index.html" class="pill-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech">
+            </a>
+
+            <!-- Center Nav Links -->
+            <div class="main-nav-links">
+                <ul class="nav-list desktop-only">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../about/about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="../services/services.html" class="nav-link">Services</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Categories</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Ideation & Design</a></li>
+                                        <li><a href="#">Mobile App Development</a></li>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Software Development</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <!-- Group 1 -->
+                                        <div class="category-group">
+                                            <a href="../services/services.html#web-dev" class="group-header">
+                                                <h4>Web & App</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#web-dev">Web Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#app-dev">App Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ui-ux">UI/UX Design <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#digital-marketing">Digital
+                                                        Marketing <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Group 2 -->
+                                        <div class="category-group">
+                                            <a href="../services/services.html#banking" class="group-header">
+                                                <h4>Enterprise</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#banking">Banking Software <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#architecture">Building
+                                                        Architecture <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#salesforce">Sales Force <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ad-agency">Ad Agency <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Group 3 -->
+                                        <div class="category-group">
+                                            <a href="../services/services.html#data-flow" class="group-header">
+                                                <h4>Data & SAP</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#data-flow">Data Flow <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#data-analyst">Data Analyst <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#oracle">Oracle <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#sap">SAP Solutions <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item-dropdown">
+                        <a href="../products/products.html" class="nav-link active">Products</a>
+                        <div class="dropdown-menu products-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Our Solutions</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Edu & News</a></li>
+                                        <li><a href="#">Health & Lifestyle</a></li>
+                                        <li><a href="#">E-Commerce</a></li>
+                                        <li><a href="#">AI Systems</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <!-- Group 1 -->
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Edu & Media</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">Eduprova <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Digital News <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Moon Food <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Group 2 -->
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Health & Retail</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">E-Commerce <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Doctor on Click <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Communication <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Group 3 -->
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Next-Gen AI</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">AI Based LLMs <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Predictive Analytics <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="../careers/careers.html" class="nav-link">Careers</a></li>
+                    <li><a href="../contact/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- CTA on the Right -->
+            <a href="../contact/contact.html" class="get-in-touch-btn desktop-only">
+                Get In Touch
+                <span class="btn-icon-box">
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+
+            <button class="mobile-menu-button mobile-only" id="mobile-menu-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Popover -->
+    <div id="mobile-menu-popover">
+        <div class="mobile-menu-header">
+            <button class="mobile-menu-close-btn"><i class="fas fa-times"></i></button>
+            <a href="../index.html" class="mobile-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech" class="mobile-logo">
+            </a>
+            <div style="width: 32px;"></div>
+        </div>
+
+        <div class="mobile-menu-links">
+            <a href="../index.html" class="mobile-nav-link">HOME</a>
+            <a href="../about/about.html" class="mobile-nav-link">ABOUT</a>
+            <a href="products.html" class="mobile-nav-link active">PRODUCTS</a>
+            <a href="../services/services.html" class="mobile-nav-link">SERVICES</a>
+            <a href="../careers/careers.html" class="mobile-nav-link">CAREERS</a>
+            <a href="../contact/contact.html" class="mobile-nav-link">CONTACT</a>
+        </div>
+
+        <div class="mobile-menu-footer">
+            <div class="mobile-social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="mobile-search-box">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="products-hero">
+        <img src="../public/image copy 2.png" alt="Dilshaj Infotech" class="logo-imgd" data-aos="zoom-out"
+            data-aos-duration="1200">
+
+        <div class="hero-content-bottom">
+            <div class="text-content">
+                <h1>AI-Powered <br> E-Learning Platform</h1>
+                <h2>Learn. Build. Get Hired.</h2>
+                <p>EduProva is an intelligent career acceleration platform combining AI tools, professional networking,
+                    freelancing, startup collaboration, and skill-based learning — all in one ecosystem.</p>
+            </div>
+
+            <div class="action-content">
+                <ul class="benefits-list">
+                    <li data-aos="fade-up" data-aos-delay="100"><i class="fa-solid fa-circle-check"></i> 10,000+
+                        Learners</li>
+                    <li data-aos="fade-up" data-aos-delay="200"><i class="fa-solid fa-circle-check"></i> 500+ Courses
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300"><i class="fa-solid fa-circle-check"></i> 1,200+ Job
+                        Opportunities</li>
+                </ul>
+                <div class="buttons" data-aos="fade-up" data-aos-delay="400">
+                    <button class="btn-primary">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn-secondary">Explore Features</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="../public/line.png" alt="Dilshaj Infotech" class="line">
+
+    <!-- Dark Section with Curve -->
+    <section class="dark-section">
+        <div class="curve-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+            <!-- Custom curve implementation in CSS might be easier to match exactly, trying a standard SVG first or pure CSS border-radius tricks -->
+        </div>
+
+        <div class="dark-content">
+            <div class="mobile-mockup-container" data-aos="fade-up" data-aos-duration="1000">
+                <img src="../public/mobile.png" alt="EduProva Mobile App" class="mobile-img">
+            </div>
+
+            <div class="dark-text">
+                <h2>GENERATE YOUR <br> FUTURE WITH AI</h2>
+                <p>EduProva combines AI-powered learning, career tools, networking, freelancing, and startup
+                    collaboration — all in one intelligent platform.</p>
+
+                <div class="dark-actions">
+                    <button class="btn-white">Get Started</button>
+                    <div class="feature-icons">
+                        <div class="icon-circle"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="icon-circle"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="icon-circle"><i class="fa-solid fa-robot"></i></div>
+                        <div class="icon-circle"><i class="fa-solid fa-users"></i></div>
+                        <div class="icon-circle"><i class="fa-solid fa-rocket"></i></div>
+                    </div>
+                </div>
+
+                <div class="feature-timeline">
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-dot"></div>
+                        <span>Personalized AI-driven learning paths</span>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <span>Verified career & earning opportunities</span>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-dot"></div>
+                        <span>Resume, mock interview & grammar assistant</span>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="timeline-dot"></div>
+                        <span>Posts, networking & professional connections</span>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="timeline-dot"></div>
+                        <span>Ideas, collaboration & founder funding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Curve Transition -->
+    <img src="../public/line.png" alt="Dilshaj Infotech" class="lineb" style="transform: scaleX(-1) scaleY(-1);">
+    <!-- About & Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stats-text">
+                <div class="badge">✦ About EduProva</div>
+                <h2>Building AI-Powered Careers For Everyone</h2>
+                <p>EduProva is an intelligent ecosystem designed to help students, professionals, freelancers, and
+                    founders learn, connect, earn, and grow — all in one unified AI-driven platform.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card white" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>10,000+</h3>
+                    <p>Active Learners</p>
+                </div>
+                <div class="stat-card dark" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>500+</h3>
+                    <p>AI-Powered Courses</p>
+                </div>
+                <div class="stat-card white" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>1,200+</h3>
+                    <p>Opportunities</p>
+                </div>
+                <div class="stat-card white" data-aos="zoom-in" data-aos-delay="400">
+                    <h3>150+</h3>
+                    <p>Startup Ideas Funded</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Visual Section -->
+    <section class="career-section">
+        <div class="career-header">
+            <h2>BUILD YOUR <span class="text-highlight">CAREER</span> WITH CONFIDENCE</h2>
+        </div>
+
+        <div class="app-showcase">
+            <!-- Background Grid Tiles (CSS) -->
+            <!-- Scrolling Background Marquee -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track">
+                    <!-- 1st Group of Dummy Photos -->
+                    <div class="marquee-group">
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=1" alt="Dummy 1">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=2" alt="Dummy 2">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=3" alt="Dummy 3">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=4" alt="Dummy 4">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=5" alt="Dummy 5">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=6" alt="Dummy 6">
+                        </div>
+                    </div>
+                    <!-- Duplicate Group for Seamless Loop -->
+                    <div class="marquee-group">
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=1" alt="Dummy 1">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=2" alt="Dummy 2">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=3" alt="Dummy 3">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=4" alt="Dummy 4">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=5" alt="Dummy 5">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=6" alt="Dummy 6">
+                        </div>
+                    </div>
+                </div>
+                <div class="marquee-track reverse-track">
+                    <!-- 2nd Row (Reverse or Different Speed/Set) - User said "left move", so I'll keep left but maybe offset -->
+                    <div class="marquee-group">
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=7" alt="Dummy 7">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=8" alt="Dummy 8">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=9" alt="Dummy 9">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=10" alt="Dummy 10">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=11" alt="Dummy 11">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=12" alt="Dummy 12">
+                        </div>
+                    </div>
+                    <!-- Duplicate -->
+                    <div class="marquee-group">
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=7" alt="Dummy 7">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=8" alt="Dummy 8">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=9" alt="Dummy 9">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=10" alt="Dummy 10">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=11" alt="Dummy 11">
+                        </div>
+                        <div class="grid-tile-photo"><img src="https://picsum.photos/200/200?random=12" alt="Dummy 12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone Image -->
+            <div class="center-phone-career" data-aos="zoom-in" data-aos-duration="1200">
+                <img src="../public/bottomphone.png" alt="App Career Screen" class="career-mobile-img">
+                <!-- Gradient Overlay at bottom of phone to blend into white like the reference -->
+                <div class="phone-bottom-fade"></div>
+            </div>
+        </div>
+
+        <div class="career-footer" data-aos="fade-up">
+            <p class="para">EduProva is your AI-powered growth engine for students, professionals, freelancers, and
+                founders. Learn
+                smarter, connect better, and unlock real-world opportunities.</p>
+            <button class="btn-app-store">
+                <i class="fa-brands fa-apple"></i> Download on App Store
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Upcoming Products Section -->
+    <section class="upcoming-products-section">
+        <!-- Background Grid Pattern -->
+        <div class="upcoming-bg-grid"></div>
+
+        <div class="upcoming-container">
+            <!-- Left Large Card (Grid 1 / Span 1) -->
+            <!-- Left Large Card (Grid 1 / Span 1) -->
+            <div class="featured-product-card" id="featured-card" data-aos="zoom-out" data-aos-duration="1000"
+                style="background-image: url('https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2006&auto=format&fit=crop');">
+                <!-- Background Image is set via CSS or inline -->
+                <div class="featured-overlay">
+                    <div class="tag-upcoming" data-aos="fade-right" data-aos-delay="400"><i
+                            class="fa-solid fa-star"></i> UPCOMING</div>
+
+                    <div class="featured-text-content">
+                        <h3 id="featured-title">AI-Based LLMs Platform</h3>
+                        <p id="featured-desc">Advanced large language models powering intelligent automation, education,
+                            communication and
+                            enterprise solutions.</p>
+                        <button class="btn-get-notified">Get Notified</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Content (Grid 2 / Span 1) -->
+            <div class="upcoming-right-content">
+                <div class="upcoming-header-group" data-aos="fade-left">
+                    <h4>Our Upcoming Products</h4>
+                    <h2>Building The <span class="text-highlight">Future</span> Across Industries</h2>
+                    <p class="upcoming-desc">EduProva is expanding its AI-powered ecosystem beyond education to
+                        revolutionize media, healthcare, food delivery, e-commerce, and communication.</p>
+                </div>
+
+                <!-- Product Grid (3 columns) -->
+                <div class="product-mini-grid">
+                    <!-- Card 1 -->
+                    <div class="small-product-card card-doctor" data-aos="fade-up" data-aos-delay="200"
+                        style="background-image: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <h4>Doctor On Click</h4>
+                            <p class="card-subtext">Instant virtual healthcare consultations anytime</p>
+                            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="small-product-card card-food" data-aos="fade-up" data-aos-delay="400"
+                        style="background-image: url('https://images.unsplash.com/photo-1526367790999-0150786686a2?q=80&w=2071&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <h4>Moon Food Delivery</h4>
+                            <p class="card-subtext">Instant virtual healthcare consultations anytime</p>
+                            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="small-product-card card-news" data-aos="fade-up" data-aos-delay="600"
+                        style="background-image: url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <h4>Digital News Channel</h4>
+                            <p class="card-subtext">AI - curated real - time news and media platform</p>
+                            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Extraordinary CTA Section -->
+    <section class="extraordinary-section">
+        <div class="extraordinary-card">
+            <!-- Decorative Sparkles Top Left -->
+            <div class="sparkles-tl">
+                <span></span><span></span><span></span>
+            </div>
+
+            <div class="extraordinary-content">
+                <h2>READY TO BUILD SOMETHING<br>EXTRAORDINARY?</h2>
+                <p>Let's turn your ideas into powerful digital solutions.</p>
+
+                <div class="cta-actions">
+                    <button class="btn-start-project">Start Your Project</button>
+                    <button class="btn-contact-us">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Decorative Sparkles Bottom Right -->
+            <div class="sparkles-br">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <!-- Top Footer (Light) -->
+        <!-- Top Footer (Light) -->
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-grid-layout">
+                    <!-- Column 1: Brand -->
+                    <div class="footer-col brand-col" data-aos="fade-up">
+                        <img src="../public/drlogo.png" alt="Dilshaj Infotech" class="footer-logo" loading="lazy">
+                        <p class="footer-desc">
+                            Dilshaj Infotech is a next-generation global technology company building high-performance
+                            digital products, intelligent platforms, and scalable solutions. We focus on quality,
+                            innovation, and speed to deliver secure, future-ready technology that drives real impact.
+                        </p>
+                    </div>
+
+                    <!-- Column 2: Links -->
+                    <div class="footer-col links-col" data-aos="fade-up" data-aos-delay="100">
+                        <h4 class="footer-heading">Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about/about.html">About Us</a></li>
+                            <li><a href="../services/services.html">Service</a></li>
+                            <li><a href="../index.html#projects">Projects</a></li>
+                            <li><a href="../index.html#technologies">Technologies</a></li>
+                            <li><a href="#">Social Service</a></li>
+                            <li><a href="../careers/careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Services -->
+                    <div class="footer-col services-col" data-aos="fade-up" data-aos-delay="200">
+                        <h4 class="footer-heading">Services</h4>
+                        <ul class="footer-links services-grid-list">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">UI Ux Design</a></li>
+                            <li><a href="#">Banking Software</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Building Architecture</a></li>
+                            <li><a href="#">Sales Force</a></li>
+
+                            <!-- Second column items implicitly flowing via grid -->
+                            <li><a href="#">Ad Agency</a></li>
+                            <li><a href="#">Data Flow</a></li>
+                            <li><a href="#">Data Analyst</a></li>
+                            <li><a href="#">Oracle</a></li>
+                            <li><a href="#">Chat Process</a></li>
+                            <li><a href="#">SAP</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Products -->
+                    <div class="footer-col products-col" data-aos="fade-up" data-aos-delay="300">
+                        <h4 class="footer-heading">Products</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Eduprova</a></li>
+                            <li><a href="#">Digital News</a></li>
+                            <li><a href="#">Moved Food</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li><a href="#">Doctor on Click</a></li>
+                            <li><a href="#">Communication App</a></li>
+                            <li><a href="#">AI Based Allowence</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 5: Contact -->
+                    <div class="footer-col contact-col" data-aos="fade-up" data-aos-delay="400">
+                        <h4 class="footer-heading">Contact</h4>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+91 8977272783</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>dilshajinfotech.it@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>225-2A, Narsipatnam, Rolugunta,<br>Visakhapatnam, Andhra Pradesh<br>531114</span>
+                            </li>
+                        </ul>
+                        <div class="footer-map-preview">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.74233575975!2d82.4988!3d17.7329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzU4LjQiTiA4MsKwMjknNTUuNiJF!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+                                width="100%" height="150"
+                                style="border:0; border-radius: 15px; margin-top: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"
+                                allowfullscreen="" loading="lazy">
+                            </iframe>
+                            <div style="text-align: right; margin-top: 8px;">
+                                <a href="https://share.google/xf0iGvcioFSqKcoJw" target="_blank"
+                                    style="color: #7c5cff; font-size: 0.85rem; text-decoration: none; font-weight: 600;">
+                                    View on Google Maps <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer (Dark) -->
+        <div class="footer-bottom">
+            <div class="footer-container bottom-flex" data-aos="fade-up">
+                <div class="footer-social-wrapper">
+                    <h4 class="social-heading">Follow Us On</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-btn"><i class="fas fa-globe"></i></a>
+                    </div>
+                    <p class="copyright-text">© Copyright 2025, All Rights Reserved by Dilshaj Infotech</p>
+                </div>
+
+                <div class="whatsapp-update-box">
+                    <div class="wa-header">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Updates</span>
+                    </div>
+                    <form class="wa-form">
+                        <div class="wa-input-group">
+                            <img src="https://flagcdn.com/w20/in.png" alt="India" class="flag-icon-img" loading="lazy">
+                            <input type="tel" placeholder="Enter Phone number" class="wa-input">
+                        </div>
+                        <button type="submit" class="wa-submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 100,
+            once: true
+        });
+    </script>
+    <script src="../script.js"></script>
+    <script src="products.js"></script>
+</body>
+
+</html>

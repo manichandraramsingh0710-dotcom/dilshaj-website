@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Dilshaj Infotech</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="careers.css">
+</head>
+
+<body>
+
+
+    <!-- Shared SVG gradients for four-pointed star (medium purple, subtle depth) -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0">
+        <defs>
+            <linearGradient id="starPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6b5bcc" />
+                <stop offset="100%" stop-color="#8b6eff" />
+            </linearGradient>
+            <linearGradient id="starPurpleGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b7ad4" />
+                <stop offset="100%" stop-color="#b8a5ff" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- Header -->
+    <header>
+        <nav class="pill-nav-container">
+            <a href="../index.html" class="pill-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech">
+            </a>
+
+            <div class="main-nav-links">
+                <ul class="nav-list desktop-only">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../about/about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="../services/services.html" class="nav-link">Services</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Categories</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Ideation & Design</a></li>
+                                        <li><a href="#">Mobile App Development</a></li>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Software Development</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <div class="category-group">
+                                            <a href="../services/services.html#web-dev" class="group-header">
+                                                <h4>Web & App</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#web-dev">Web Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#app-dev">App Development <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ui-ux">UI/UX Design <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#digital-marketing">Digital
+                                                        Marketing <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../services/services.html#banking" class="group-header">
+                                                <h4>Enterprise</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#banking">Banking Software <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#architecture">Building
+                                                        Architecture <span class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#salesforce">Sales Force <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#ad-agency">Ad Agency <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../services/services.html#data-flow" class="group-header">
+                                                <h4>Data & SAP</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../services/services.html#data-flow">Data Flow <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#data-analyst">Data Analyst <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#oracle">Oracle <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../services/services.html#sap">SAP Solutions <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item-dropdown">
+                        <a href="../products/products.html" class="nav-link">Products</a>
+                        <div class="dropdown-menu products-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-sidebar">
+                                    <h3 class="sidebar-title">Our Solutions</h3>
+                                    <ul class="sidebar-list">
+                                        <li><a href="#" class="active">Edu & News</a></li>
+                                        <li><a href="#">Health & Lifestyle</a></li>
+                                        <li><a href="#">E-Commerce</a></li>
+                                        <li><a href="#">AI Systems</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-main-content">
+                                    <div class="dropdown-grid">
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Edu & Media</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">Eduprova <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Digital News <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Moon Food <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Health & Retail</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">E-Commerce <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Doctor on Click <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Communication <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="category-group">
+                                            <a href="../products/products.html" class="group-header">
+                                                <h4>Next-Gen AI</h4>
+                                            </a>
+                                            <ul class="group-list">
+                                                <li><a href="../products/products.html">AI Based LLMs <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                                <li><a href="../products/products.html">Predictive Analytics <span
+                                                            class="item-arrow"><i
+                                                                class="fas fa-arrow-right"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../careers/careers.html" class="nav-link active">Careers</a></li>
+                    <li><a href="../contact/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <a href="../contact/contact.html" class="get-in-touch-btn desktop-only">
+                Get In Touch
+                <span class="btn-icon-box"><i class="fas fa-arrow-right"></i></span>
+            </a>
+
+            <button class="mobile-menu-button mobile-only" id="mobile-menu-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+    <!-- Mobile Menu Popover -->
+    <div id="mobile-menu-popover">
+        <div class="mobile-menu-header">
+            <button class="mobile-menu-close-btn"><i class="fas fa-times"></i></button>
+            <a href="../index.html" class="mobile-logo-link">
+                <img src="../public/drlogo.png" alt="Dilshaj Infotech" class="mobile-logo">
+            </a>
+            <div style="width: 32px;"></div>
+        </div>
+
+        <div class="mobile-menu-links">
+            <a href="../index.html" class="mobile-nav-link">HOME</a>
+            <a href="../about/about.html" class="mobile-nav-link">ABOUT</a>
+            <a href="../products/products.html" class="mobile-nav-link">PRODUCTS</a>
+            <a href="../services/services.html" class="mobile-nav-link">SERVICES</a>
+            <a href="careers.html" class="mobile-nav-link active">CAREERS</a>
+            <a href="../contact/contact.html" class="mobile-nav-link">CONTACT</a>
+        </div>
+
+        <div class="mobile-menu-footer">
+            <div class="mobile-social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="mobile-search-box">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Careers Hero Section -->
+        <section class="careers-hero">
+            <div class="hero-container">
+                <div class="hero-content-left" data-aos="fade-right">
+                    <h1>WHERE CREATIVITY MEETS INNOVATION AND TECHNOLOGY.</h1>
+                    <p>At Dilshaj Infotech, we believe in empowering talented individuals to grow, learn, and create
+                        meaningful digital solutions. If you're passionate about technology and want to be part of a
+                        modern startup environment, we invite you to explore exciting career opportunities with us.</p>
+                    <a href="#openings" class="apply-today-btn">
+                        Apply Today
+                        <span class="btn-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+
+                <div class="hero-content-right" data-aos="fade-left">
+                    <div class="hero-image-wrapper">
+                        <!-- Ornaments -->
+                        <i class="fas fa-star hero-star" style="top: 5%; right: 10%;"></i>
+                        <i class="fas fa-star hero-star" style="bottom: 20%; left: -5%;"></i>
+
+                        <!-- Badges -->
+                        <div class="floating-badge badge-grow" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fas fa-chart-line badge-icon"></i>
+                            <span class="badge-text">Grow</span>
+                        </div>
+                        <div class="floating-badge badge-empower" data-aos="zoom-in" data-aos-delay="600">
+                            <i class="fas fa-users badge-icon"></i>
+                            <span class="badge-text">Empower</span>
+                        </div>
+
+                        <!-- Main Image -->
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
+                            alt="Tech Innovation" class="main-hero-img" data-aos="fade-left" data-aos-delay="200">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Join Section -->
+        <section class="why-join-section">
+            <div class="why-join-header" data-aos="fade-up">
+                <span class="section-tag">Why Join Dilshaj Infotech</span>
+                <h2>Grow Your Career with Innovation and Opportunity</h2>
+            </div>
+            <div class="why-join-container">
+                <div class="why-join-left" data-aos="fade-right">
+                    <div class="why-join-img-grid">
+                        <div class="grid-img-box">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
+                                alt="Team Collaboration">
+                        </div>
+                        <div class="grid-img-box">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+                                alt="Strategy Meeting">
+                        </div>
+                        <div class="grid-img-box">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+                                alt="Modern Workspace">
+                        </div>
+                        <div class="grid-img-box">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800"
+                                alt="Team Celebration">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-join-right" data-aos="fade-left">
+                    <div class="benefit-list">
+                        <!-- Item 1 -->
+                        <div class="benefit-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="benefit-icon-box">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Growth Opportunities</h4>
+                                <p>We encourage continuous learning and professional development. Grow your skills
+                                    while
+                                    building real-world digital solutions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="benefit-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="benefit-icon-box">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Collaborative Culture</h4>
+                                <p>Work with a supportive team that values creativity and new ideas. Collaboration
+                                    helps us create better and smarter solutions together.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="benefit-icon-box" style="display:none"></div>
+                        <div class="benefit-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="benefit-icon-box">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Modern Technology</h4>
+                                <p>Use the latest tools and technologies to build innovative products. Stay ahead
+                                    with
+                                    hands-on experience in modern digital development.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="benefit-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="benefit-icon-box">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Supportive Environment</h4>
+                                <p>A positive workplace that promotes learning and teamwork. We believe in helping
+                                    every
+                                    team member succeed and grow.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Life at Dilshaj Infotech -->
+        <section class="life-section">
+            <div class="life-header" data-aos="fade-up">
+                <span class="life-tag">Life at Dilshaj Infotech</span>
+                <h2>Where Great Ideas Turn Into Real Digital Experiences</h2>
+            </div>
+
+            <div class="life-container">
+                <div class="life-images-wrapper" data-aos="fade-right">
+                    <div class="life-img-card life-img-1">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800"
+                            alt="Coffee and Laptop Workspace">
+                    </div>
+                    <div class="life-img-card life-img-2">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+                            alt="Engaged Team Meeting">
+                    </div>
+                </div>
+
+                <div class="life-content" data-aos="fade-left">
+                    <p>At Dilshaj Infotech, we turn great ideas into meaningful digital experiences through innovation,
+                        collaboration, and modern technology. As a growing startup, we focus on creativity, teamwork,
+                        and building solutions that create real value for businesses and users.</p>
+
+                    <ul class="life-checklist">
+                        <li class="life-check-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-check"></i>
+                            Collaborative and innovative work culture
+                        </li>
+                        <li class="life-check-item" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-check"></i>
+                            Encouraging creativity and new ideas
+                        </li>
+                        <li class="life-check-item" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-check"></i>
+                            Opportunities to learn modern technologies
+                        </li>
+                        <li class="life-check-item" data-aos="fade-up" data-aos-delay="400">
+                            <i class="fas fa-check"></i>
+                            Building real-world digital solutions
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Roles Carousel Section -->
+        <section class="roles-slider-section">
+            <div class="roles-slider-container">
+                <div class="why-join-header" data-aos="fade-up">
+                    <span class="section-tag">Open Positions Section</span>
+                    <h2>Find Your Role. Build Your Future With Us.</h2>
+                </div>
+
+                <!-- Main Active Role Card -->
+                <div class="roles-main-card" id="featured-role-card" data-aos="zoom-in">
+                    <div class="roles-main-card-bg" id="main-card-bg"></div>
+                    <div class="roles-card-content">
+                        <h3 id="active-role-title">Senior Frontend Engineer</h3>
+                        <p id="active-role-desc">Build responsive and high-performance web interfaces using modern
+                            frameworks. Focus on clean code, user experience, and delivering scalable digital products.
+                        </p>
+                        <div class="role-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span id="active-role-loc">Vizag</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span id="active-role-exp">4+ years</span>
+                            </div>
+                        </div>
+                        <a href="../contact/contact.html" class="btn-apply-today">
+                            Apply Today
+                            <span class="arrow-box"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Thumbnails Grid -->
+                <div class="roles-grid" id="roles-thumb-grid" data-aos="fade-up">
+                    <!-- Dynamic Tiles injected via JS -->
+                </div>
+
+                <!-- Slider Navigation -->
+                <div class="roles-nav">
+                    <button class="role-nav-btn" id="role-prev"><i class="fas fa-arrow-left"></i></button>
+                    <div class="nav-line"></div>
+                    <button class="role-nav-btn" id="role-next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Openings Section (Legacy or Optional) -->
+        <section id="openings" class="job-listings" style="display:none">
+            <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 50px;" data-aos="fade-up">Ready to join
+                our
+                mission?</h2>
+
+            <!-- Development -->
+            <div class="job-card" data-aos="fade-up">
+                <div class="job-info">
+                    <h3>Senior Frontend Developer</h3>
+                    <div class="job-tags">
+                        <span class="job-tag">Engineering</span>
+                        <span class="job-tag">Remote</span>
+                        <span class="job-tag">Full-time</span>
+                    </div>
+                </div>
+                <a href="../contact/contact.html" class="apply-btn">Apply Now</a>
+            </div>
+
+            <!-- UI/UX -->
+            <div class="job-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="job-info">
+                    <h3>Product Designer (UI/UX)</h3>
+                    <div class="job-tags">
+                        <span class="job-tag">Design</span>
+                        <span class="job-tag">On-site</span>
+                        <span class="job-tag">Full-time</span>
+                    </div>
+                </div>
+                <a href="../contact/contact.html" class="apply-btn">Apply Now</a>
+            </div>
+
+            <!-- Marketing -->
+            <div class="job-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="job-info">
+                    <h3>Digital Marketing Specialist</h3>
+                    <div class="job-tags">
+                        <span class="job-tag">Marketing</span>
+                        <span class="job-tag">Remote</span>
+                        <span class="job-tag">Contract</span>
+                    </div>
+                </div>
+                <a href="../contact/contact.html" class="apply-btn">Apply Now</a>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <!-- Top Footer (Light) -->
+        <!-- Top Footer (Light) -->
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-grid-layout">
+                    <!-- Column 1: Brand -->
+                    <div class="footer-col brand-col" data-aos="fade-up">
+                        <img src="public/drlogo.png" alt="Dilshaj Infotech" class="footer-logo" loading="lazy">
+                        <p class="footer-desc">
+                            Dilshaj Infotech is a next-generation global technology company building high-performance
+                            digital products, intelligent platforms, and scalable solutions. We focus on quality,
+                            innovation, and speed to deliver secure, future-ready technology that drives real impact.
+                        </p>
+                    </div>
+
+                    <!-- Column 2: Links -->
+                    <div class="footer-col links-col" data-aos="fade-up" data-aos-delay="100">
+                        <h4 class="footer-heading">Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about/about.html">About Us</a></li>
+                            <li><a href="../services/services.html">Service</a></li>
+                            <li><a href="../index.html#projects">Projects</a></li>
+                            <li><a href="../index.html#technologies">Technologies</a></li>
+                            <li><a href="#">Social Service</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Services -->
+                    <div class="footer-col services-col" data-aos="fade-up" data-aos-delay="200">
+                        <h4 class="footer-heading">Services</h4>
+                        <ul class="footer-links services-grid-list">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">UI Ux Design</a></li>
+                            <li><a href="#">Banking Software</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Building Architecture</a></li>
+                            <li><a href="#">Sales Force</a></li>
+
+                            <!-- Second column items implicitly flowing via grid -->
+                            <li><a href="#">Ad Agency</a></li>
+                            <li><a href="#">Data Flow</a></li>
+                            <li><a href="#">Data Analyst</a></li>
+                            <li><a href="#">Oracle</a></li>
+                            <li><a href="#">Chat Process</a></li>
+                            <li><a href="#">SAP</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Products -->
+                    <div class="footer-col products-col" data-aos="fade-up" data-aos-delay="300">
+                        <h4 class="footer-heading">Products</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Eduprova</a></li>
+                            <li><a href="#">Digital News</a></li>
+                            <li><a href="#">Moved Food</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                            <li><a href="#">Doctor on Click</a></li>
+                            <li><a href="#">Communication App</a></li>
+                            <li><a href="#">AI Based Allowence</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 5: Contact -->
+                    <div class="footer-col contact-col" data-aos="fade-up" data-aos-delay="400">
+                        <h4 class="footer-heading">Contact</h4>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+91 8977272783</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>dilshajinfotech.it@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>225-2A, Narsipatnam, Rolugunta,<br>Visakhapatnam, Andhra Pradesh<br>531114</span>
+                            </li>
+                        </ul>
+                        <div class="footer-map-preview">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.74233575975!2d82.4988!3d17.7329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzU4LjQiTiA4MsKwMjknNTUuNiJF!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+                                width="100%" height="150"
+                                style="border:0; border-radius: 15px; margin-top: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"
+                                allowfullscreen="" loading="lazy">
+                            </iframe>
+                            <div style="text-align: right; margin-top: 8px;">
+                                <a href="https://share.google/xf0iGvcioFSqKcoJw" target="_blank"
+                                    style="color: #7c5cff; font-size: 0.85rem; text-decoration: none; font-weight: 600;">
+                                    View on Google Maps <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer (Dark) -->
+        <div class="footer-bottom">
+            <div class="footer-container bottom-flex" data-aos="fade-up">
+                <div class="footer-social-wrapper">
+                    <h4 class="social-heading">Follow Us On</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-btn"><i class="fas fa-globe"></i></a>
+                    </div>
+                    <p class="copyright-text">© Copyright 2025, All Rights Reserved by Dilshaj Infotech</p>
+                </div>
+
+                <div class="whatsapp-update-box">
+                    <div class="wa-header">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Updates</span>
+                    </div>
+                    <form class="wa-form">
+                        <div class="wa-input-group">
+                            <img src="https://flagcdn.com/w20/in.png" alt="India" class="flag-icon-img" loading="lazy">
+                            <input type="tel" placeholder="Enter Phone number" class="wa-input">
+                        </div>
+                        <button type="submit" class="wa-submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 100,
+            once: true
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../script.js"></script>
+    <script src="careers.js"></script>
+</body>
+
+</html>
